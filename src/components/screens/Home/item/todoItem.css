@@ -1,0 +1,43 @@
+.toDoItem {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: rgb(184, 177, 177);
+  padding: 20px;
+  border-radius: 30px;
+  justify-content: space-between;
+}
+
+.toDoItem:last-child {
+  margin-bottom: 50px;
+}
+
+.toDoItem__button {
+  display: flex;
+  align-items: center;
+}
+
+.toDoItem__text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.toDoItem__trash {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+.toDoItem__trash:hover {
+  color: red;
+}
